@@ -1,6 +1,6 @@
-# Install Node V20
+# Install Node V18
 ```
- curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+ curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 ```
 
 # Install Module
